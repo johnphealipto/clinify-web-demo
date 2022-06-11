@@ -1,4 +1,4 @@
-import Link from 'next/Link'
+import Link from 'next/link'
 import styles from '../assets/styles/Header.module.css'
 import Button from './Button'
 
