@@ -12,7 +12,7 @@ const HeroSection = () => {
           <span className={styles.span}>money</span> more <br /> 
           quickly
         </h1>
-        <p className={styles.description}>Lorem Ipsum is industry the industry's standard<br /> it to make a type specimen book</p>
+        <p className={styles.description}>Lorem Ipsum is industry the industry&rsquo;s standard<br /> it to make a type specimen book</p>
         <div className={styles.btn_container}>
           <Button style="dark" label="Get free trial" />
           <Button style="outline" label="Learn more" />
