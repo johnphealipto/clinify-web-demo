@@ -1,0 +1,36 @@
+.header {
+  background-color: rgba(253, 255, 242, .75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9.5vh;
+  z-index: 999;
+  backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 1150px;
+}
+
+.menu_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu_item {
+  padding: .15rem 2.5rem;
+}
+
+.menu_item:not(:last-of-type) {
+  border-right: 1px solid #000;
+}

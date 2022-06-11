@@ -1,0 +1,56 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 1150px;
+  min-height: 90vh;
+  margin-top: 9.5vh;
+}
+
+.desc_section {
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  transform-style: preserve-3d;
+}
+
+.desc_section::before,
+.svg_section::before {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background: radial-gradient(circle closest-side, rgb(191,249,209), transparent);
+  transform: translateZ(-10px)
+}
+
+.info {
+  font-size: 3.5rem;
+  line-height: 1.25;
+}
+
+.span {
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 3px;
+}
+
+.description {
+  margin-top: 1rem;
+}
+
+.btn_container {
+  margin-top: 2rem;
+  display: flex;
+  gap: .5rem;
+}
+
+.svg_section {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: right;
+  transform-style: preserve-3d;
+}

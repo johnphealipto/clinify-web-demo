@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Lato';
+  src: url(../fonts/Lato/Lato-Regular.ttf) format('truetype');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-light-blue: #00abe2;
+  --clr-dark-blue: #042648;
+  --clr-text: rgba(4, 38, 72, .9);
+  --clr-white: #FDFFF2;
+  --clr-grey: rgb(179, 179, 179);
+  --clr-black: #202020;
+  --transition: all 100ms cubic-bezier(.31,.93,.73,.41);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--clr-white);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--clr-dark-blue);
+}
+
+html,
+body {
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #202020;
+}
+
+body {
+  background-color: #FDFFF2;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input, 
+textarea,
+button {
+  font-family: inherit;
+  color: inherit;
+}
+
+input[type="button"],
+input[type="submit"],
+button {
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 1150px;
+}
