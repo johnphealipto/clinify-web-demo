@@ -1,35 +1,36 @@
 /* --- Dark Button --- */
 .dark_btn {
-  background-color: var(--clr-black);
+  background-color: rgb(var(--clr-black));
   color: var(--clr-white);
   padding: .65rem 2rem;
   font-weight: bold;
   border-radius: 5px;
   outline: none;
-  border: 1.5px solid var(--clr-black);
+  border: 1.5px solid rgb(var(--clr-black));
 }
 .dark_btn:hover {
   background-color: transparent;
-  color: var(--clr-black);
+  color: rgb(var(--clr-black));
 }
 
 .outline_btn {
   background-color: transparent;
-  color: var(--clr-black);
+  color: rgb(var(--clr-black));
   padding: .65rem 2rem;
   font-weight: bold;
   border-radius: 5px;
   outline: none;
-  border: 1.5px solid var(--clr-black);
+  border: 1.5px solid rgb(var(--clr-black));
 }
 .outline_btn:hover {
-  background-color: var(--clr-black);
+  background-color: rgb(var(--clr-black));
   color: var(--clr-white);
 }
 
 /* --- Lemon Button --- */
 .lemon_btn_area {
   position: relative;
+  width: fit-content;
   transform-style: preserve-3d;
 }
 

@@ -1,12 +1,10 @@
 import styles from '../assets/styles/Home.module.css'
-import HeroSection from '../components/HeroSection'
+import HomePage from './home'
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
+      <HomePage />
     </div>
   )
 }

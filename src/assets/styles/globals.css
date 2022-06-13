@@ -12,10 +12,11 @@
 :root {
   --clr-light-blue: #00abe2;
   --clr-dark-blue: #042648;
-  --clr-text: rgba(4, 38, 72, .9);
+  --clr-black: 32, 32, 32;
+  --clr-text: rgba(32, 32, 32, .9);
+  --clr-white-text: rgba(253, 255, 242, .8);
   --clr-white: #FDFFF2;
   --clr-grey: rgb(179, 179, 179);
-  --clr-black: #202020;
   --transition: all 100ms cubic-bezier(.31,.93,.73,.41);
 }
 
@@ -28,7 +29,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--clr-dark-blue);
+  background: rgb(var(--clr-black));
 }
 
 html,
@@ -40,14 +41,19 @@ body {
 }
 
 body {
-  background-color: #FDFFF2;
+  background-color: var(--clr-white);
 }
 
 ul {
   list-style: none;
 }
 
+h1 {
+  line-height: 1.25;
+}
+
 p {
+  color: var(--clr-text);
   line-height: 1.5;
 }
 
