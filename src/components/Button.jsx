@@ -21,12 +21,21 @@ const Button = ({ type, label, style }) => {
           />
         </div>
       }
-      {style === "lemon" &&
-        <div className={styles.lemon_btn_area}>
+      {style === "box-lemon" &&
+        <div className={styles.box_lemon}>
           <input 
             type={type}
             value={label}
-            className={styles.lemon_btn}
+            className={styles.box_lemon_btn}
+          />
+        </div>
+      }
+      {style === "box-black" &&
+        <div className={styles.box_black}>
+          <input 
+            type={type}
+            value={label}
+            className={styles.box_black_btn}
           />
         </div>
       }

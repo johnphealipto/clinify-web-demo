@@ -1,5 +1,5 @@
 .section {
-  background: linear-gradient(45deg, rgba(var(--clr-black), .9), rgba(var(--clr-black), .9)), url(../../../assets/images/milad-fakurian.jpg);
+  background: linear-gradient(45deg, rgba(var(--clr-black), .95), rgba(var(--clr-black), .95)), url(../../../assets/images/milad-fakurian.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -22,7 +22,7 @@
 }
 
 .heading {
-  font-size: 3.5rem;
+  font-size: 3rem;
   width: 40%;
 }
 

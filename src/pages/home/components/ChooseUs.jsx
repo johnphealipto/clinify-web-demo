@@ -46,7 +46,7 @@ const ChooseUs = () => {
           )}
         </div>
         <div className={styles.button_area}>
-          <Button style='lemon' label="Get free trial" />
+          <Button style='box-lemon' label="Get free trial" />
         </div>
       </div>
     </section>

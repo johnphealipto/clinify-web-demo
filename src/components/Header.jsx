@@ -22,7 +22,7 @@ const Header = () => {
             )}
           </ul>
         </nav>
-        <Button style='lemon' label="Sign in" />
+        <Button style='box-lemon' label="Sign in" />
       </div>
     </header>
   )

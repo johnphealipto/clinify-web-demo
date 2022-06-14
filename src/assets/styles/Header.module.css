@@ -3,7 +3,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 9.5vh;
+  padding-top: 1.15rem;
+  padding-bottom: 1.15rem;
   z-index: 999;
   backdrop-filter: blur(10px);
   position: fixed;
