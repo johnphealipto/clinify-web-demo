@@ -5,6 +5,22 @@
   max-width: 1150px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card_option::before {
+  content: '';
+  position: absolute;
+  width: 25%;
+  height: 50%;
+  background: radial-gradient(circle closest-side, rgb(191,249,209), transparent);
+  transform: translateZ(-10px)
 }
 
 .heading {

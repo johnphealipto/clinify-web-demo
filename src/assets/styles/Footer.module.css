@@ -1,0 +1,12 @@
+.footer {
+  background-color: rgb(var(--clr-black));
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 1150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
