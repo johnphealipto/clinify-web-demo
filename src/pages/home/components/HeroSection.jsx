@@ -8,7 +8,7 @@ const HeroSection = () => {
     <section className={styles.container}>
       <div className={styles.desc_section}>
         <h1 className={styles.info}>
-          <span className={styles.span}>Africa’s</span> only centralized and largest <span className={styles.span}>aggregator</span> of <span className={styles.span}>health systems</span> and <span className={styles.span}>organizations</span>
+          <span className={styles.span}>Manage</span> your <br /><span className={styles.span}>money</span> more <br />quickly
         </h1>
         <p className={styles.description}>Lorem Ipsum is industry the industry&rsquo;s standard<br /> it to make a type specimen book</p>
         <div className={styles.btn_container}>
@@ -20,8 +20,8 @@ const HeroSection = () => {
         <Image
           src={LadyCard}
           alt="Innovative Picture"
-          width={450}
-          height={450}
+          // width={450}
+          // height={450}
         />
       </div>
     </section>

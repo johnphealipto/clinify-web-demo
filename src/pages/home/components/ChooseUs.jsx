@@ -1,6 +1,8 @@
+import Image from 'next/image';
 import styles from "../styles/ChooseUs.module.css"
 import { BsJournalMedical } from 'react-icons/bs';
 import Button from "../../../components/Button";
+import WalletDashboard from "../../../assets/images/wallet-dashboard.svg"
 
 const ChooseUs = () => {
 
@@ -25,6 +27,12 @@ const ChooseUs = () => {
   return (
     <section className={styles.section}>
       <div className={styles.container}>
+        <div className={styles.wallet_dashboard}>
+          <Image
+            src={WalletDashboard}
+            alt="Wallet Dashboard"
+          />
+        </div>
         <div className={styles.section_heading}>
           <h1 className={styles.heading}>Why you should choose us</h1>
           <p className={styles.subheading}>Lorem Ipsum is simply dummy text of the industry's standard dummy text ever since the 1500s</p>

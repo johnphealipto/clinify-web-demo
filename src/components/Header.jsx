@@ -4,7 +4,7 @@ import Button from './Button'
 
 const Header = () => {
 
-  const menu = ["About", "Solutions", "Products", "Blog"]
+  const menu = ["Product", "Pricing", "About"]
 
   return (
     <header className={styles.header}>

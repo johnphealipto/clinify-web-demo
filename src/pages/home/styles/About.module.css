@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 1150px;
+  margin-bottom: 30rem;
+}
+
+.decription {
+  text-align: center;
+  width: 70%;
+  line-height: 1.75;
+}
