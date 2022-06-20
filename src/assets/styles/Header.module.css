@@ -35,3 +35,26 @@
 .menu_item:not(:last-of-type) {
   border-right: 1px solid #000;
 }
+
+.menu_btn {
+  display: none;
+}
+
+.menu_btn button {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+}
+
+@media only screen and (max-width: 800px)  {
+  .lg_nav,
+  .login_btn {
+    display: none;
+  }
+  .menu_btn {
+    display: inline-block;
+  }
+}
